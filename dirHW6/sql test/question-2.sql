@@ -1,0 +1,1 @@
+SELECT count(CASE WHEN amount > 3 THEN payment_id END) FROM payment;

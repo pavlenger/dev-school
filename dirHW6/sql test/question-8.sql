@@ -1,0 +1,1 @@
+UPDATE city SET city = 'Dnipro' WHERE city = 'Hadiach' RETURNING city_id, city, country_id, last_update;
